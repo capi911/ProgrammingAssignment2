@@ -1,7 +1,10 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Caching the Inverse of a Matrix:
+## Matrix inversion can take up more memory and slow down the compute there is 
+## benefit to caching the inverse of a matrix.
+## Below are two functions that are used to first create an object that 
+## stores a matrix and then caches its inverse
 
-## Below is a function that stores a matrix and will cache the inverse
+## This function creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
